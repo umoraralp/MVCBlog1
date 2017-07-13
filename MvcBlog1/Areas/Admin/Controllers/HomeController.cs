@@ -15,11 +15,13 @@ namespace MvcBlog1.Areas.Admin.Controllers
         
         public ActionResult Index()
         {
-            BlogContext db = new BlogContext();
-            string email = HttpContext.User.Identity.Name;
-            AdminUser adminuser = db.AdminUsers.FirstOrDefault(x=>x.Email==email);
-            string name = adminuser.Name;
-            string surname = adminuser.Surname;
+            //kullanıcı ad ve soyadı login olduktan sonra aldğımız mail ile yakaladık
+
+            //BlogContext db = new BlogContext();
+            //string email = HttpContext.User.Identity.Name;
+            //AdminUser adminuser = db.AdminUsers.FirstOrDefault(x=>x.Email==email);
+            //string name = adminuser.Name;
+            //string surname = adminuser.Surname;
 
             return View();
         }

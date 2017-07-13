@@ -44,6 +44,7 @@ namespace MvcBlog1.Areas.Admin.Controllers
 
         public ActionResult LogOff()
         {
+            
             FormsAuthentication.SignOut();
             return RedirectToAction("Index");
         }
