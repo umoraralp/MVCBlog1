@@ -1,15 +1,20 @@
 ﻿
 @{
+    ViewBag.Title = "UpdateCategory";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+@{
     ViewBag.Title = "AddCategory";
     Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
 }
 
 @model MvcBlog1.Areas.Admin.Models.DTO.CategoryVM
-    
+
 
 <section class="content-header">
     <h1>
-        Kategori Ekleme İşlemi
+        Kategori Güncelleme İşlemi
         <small>Preview</small>
     </h1>
     <ol class="breadcrumb">
@@ -20,18 +25,20 @@
 </section>
 
 <section class="content">
-    
+
     <div class="row">
-      
+
         <div class="col-md-9">
-            
+
             @Html.Partial("/Areas/Admin/Views/Shared/Partial/FormMessagesPart.cshtml")
             @Html.Partial("/Areas/Admin/Views/Category/Partial/CategoryForm.cshtml")
-          
+
         </div>
-       
+
     </div>
-   
+
 </section>
+
+
 
 
