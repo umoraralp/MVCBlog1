@@ -26,5 +26,10 @@ namespace MvcBlog1.Models.ORM.Context
         public DbSet<Category> Categories { set; get; }
         public DbSet<BlogPost> BlogPost { get;set; }
         public DbSet<SiteMenu> SiteMenu { get; set; }
+
+        internal void SiteMenus()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

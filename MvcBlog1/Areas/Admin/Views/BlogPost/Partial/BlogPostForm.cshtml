@@ -1,0 +1,33 @@
+﻿@model MvcBlog1.Areas.Admin.Models.DTO.BlogPostVM
+<div class="box box-primary">
+
+    <!-- /.box-header -->
+    <!-- form start -->
+    @using (Html.BeginForm())
+    {
+        <div class="box-body">
+            <div class="form-group">
+                @Html.Label("Başlık")
+                @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Başlık" })
+                @Html.ValidationMessageFor(x => x.Title)
+
+            </div>
+
+            <div class="form-group">
+                <label>Kategori</label>
+                @Html.DropDownList("CategoryID", Model.drpCategories,"Seçiniz", new {@class="form-control" })
+            </div>
+
+            <div>
+                <label>İçerik </label>
+                @Html.TextArea("ckeditor")
+            </div>
+
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button type="submit" class="btn btn-primary">Kayıt</button>
+            </div>
+        </div>
+    }
+
+</div>

@@ -20,3 +20,4 @@ c:\Users\unver\Documents\Visual Studio 2013\Projects\MvcBlog1\MvcBlog1\bin\Syste
 c:\Users\unver\Documents\Visual Studio 2013\Projects\MvcBlog1\MvcBlog1\obj\Debug\MvcBlog1.csprojResolveAssemblyReference.cache
 c:\Users\unver\Documents\Visual Studio 2013\Projects\MvcBlog1\MvcBlog1\obj\Debug\MvcBlog1.dll
 c:\Users\unver\Documents\Visual Studio 2013\Projects\MvcBlog1\MvcBlog1\obj\Debug\MvcBlog1.pdb
+C:\Users\unver\documents\visual studio 2013\Projects\MvcBlog1\MvcBlog1\bin\Microsoft.Web.Infrastructure.dll
